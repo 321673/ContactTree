@@ -1,0 +1,5 @@
+<aura:component>
+        <aura:attribute name="contact" type="Contact"/>
+        <aura:registerEvent name="ChooseContact" type="c:ChooseContact"/>
+        <p><lightning:formattedText value="{!v.contact.Name}" onclick="{!c.chooseContact}"/></p>
+</aura:component>

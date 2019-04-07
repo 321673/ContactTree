@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>GetContacts</members>
+        <members>NewChiledContactTriggerHandler</members>
+        <members>TriggerHandler</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>NewChiledContact</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>ChooseContact</members>
+        <members>ContactElement</members>
+        <members>ContactTree</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>Contact.Child_Contacts__c</members>
+        <members>Contact.Parent_Contact__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>NewContactTree</members>
+        <name>CustomTab</name>
+    </types>
+    <version>36.0</version>
+</Package>
